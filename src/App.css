@@ -1,0 +1,124 @@
+body {
+  background-color: #fdf6b3;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.navBar {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  background-color:#e41b11;
+}
+
+.buscaPokemon {
+  margin-top: 20px;
+  width: 100%;
+  height: 100%;
+  font-size: 1em;
+  color: #c6c6c6;
+  height: 35px;
+  padding-left: 15px;
+  border-radius: 25px 0px 20px;
+  box-shadow: -2px 4px 8px 1px rgba(0, 0, 0, 0.1);
+  border: none;
+  outline: none;
+}
+
+.img-container {
+  display: flex;
+}
+
+.img-pokemon {
+  display: flex;
+  padding-bottom: 10px;
+  width: 150px;
+}
+
+.pokemonId {
+  align-self: flex-end;
+  position: relative;
+  top: -10px;
+  color: #c6c6c6;
+  margin: 0px 5px;
+}
+
+.pokemon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px 0px;
+  padding-top: 10px;
+  box-shadow: -2px 4px 8px 1px rgba(0, 0, 0, 0.1);
+  transition: width 2s;
+}
+.pokemon:hover {
+  transform: scale(1.02);
+  background-color: #ededed;
+  box-shadow: -3px 4px 8px 1px rgba(0, 0, 0, 0.2);
+  transition: 0.2s;
+}
+
+.pokemon-container {
+  display: flex;
+  margin: 15px 0;
+}
+
+@media(max-width: 500px) {
+  .pokemon-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.name {
+  margin: 0;
+  padding: 5px;
+  color: white;
+  border-radius: 25px 0px 20px;
+  background-color: #e41b11;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.poke-infor {
+  display: flex;
+  flex-direction:  column;
+  justify-content: space-between;
+  padding-top: 5px;
+  width: 35%;
+  height: 100%;
+  background-color: white;
+  box-shadow: -2px 4px 8px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 0px 20px;
+  transition: width 2s 5s;
+}
+.abilidades {
+
+}
+.infor-title {
+  display: inline-block;
+  align-self: flex-end;
+  width: 100%;
+  padding: 5px;
+  color: white;
+  background-color: rgb(255, 166, 0);
+  border-radius: 0px 20px;
+}
+.poke-infor:hover {
+  transform: scale(1.02);
+  background-color: #f3f1f1;
+  box-shadow: -3px 4px 8px 1px rgba(0, 0, 0, 0.2);
+  transition: 0.2s;
+}
